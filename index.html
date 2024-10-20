@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humza's Portfolio</title>
+  <meta property="og:title" content="Humza's Portfolio">
+    <meta property="og:description" content="Welcome to my digital portfolio, where I showcase my journey in software development, cybersecurity, and networking!">
+    <meta property="og:image" content="./assets/images/icon-preview.svg">
+    <meta property="og:url" content="https://hhussain04.github.io">
+    <meta property="og:type" content="website">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Humza Hussain" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Humza Hussain">Humza Hussain</h1>
+
+          <p class="title">CS student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hussainhumza0403@gmail.com" class="contact-link">hussainhumza0403@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>London, UK</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/humzahussain04/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/hhussain04" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a student from London, UK, pursuing a career in software development, cyber-security, and networking. 
+            I’m passionate about tackling challenging technical issues and finding innovative solutions.
+          </p>
+
+          <p>
+            I am focusing on learning how to build software solutions that are not only functional but also secure and reliable. 
+            My interest in networking helps me optimise systems to ensure they perform at their best. 
+            My aim is to contribute to creating secure, high-quality software, enhancing network infrastructure, and driving technological progress.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Interested In</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Python Development Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+
+                <p class="service-item-text">
+                  Developing my skills in Python, a versatile and high-level programming language, in order to create software solutions and automate tasks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-lock.svg" alt="Cyber Security Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cyber Security</h4>
+
+                <p class="service-item-text">
+                  Learning to protect systems from cyber threats, attacks and vulnerabilities.
+                </p>
+              </div>
+            </li> 
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web-development.svg" alt="Web Development" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Building websites and web applications using HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </li> 
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-data.svg" alt="Data Analysis" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Analysing and interpreting data in order to see patterns and trends.
+                </p>
+              </div>
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-network.svg" alt="Networking" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-title">Networking</h4>
+
+                <p class="service-item-text">
+                  Testing and manipulating my own personal networks to understand how they work and how to improve them.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-linux.svg" alt="Linux" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linux</h4>
+                <p class="service-item-text">
+                  Learning to use different Linux distros and the command line to manage systems and rice themes on my desktop.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">References</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ezra" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ezra Baldwin</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Ezra" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Ezra Baldwin</h4>
+
+              <time datetime="2023-09-01">September 2023 - June 2025</time>
+
+              <div data-modal-text>
+                <p>
+                  hehehehe ezra moment
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ilford County High School</h4>
+
+              <span>2018-2023</span>
+
+              <p class="timeline-text">
+               Here I built my foundational skills in mathematics and english, which I have continued to develop throughout my academic career, as well as my interest in computer science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ada, the National College for Digital Skills</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                I am currently studying at Ada, the National College for Digital Skills, where I am developing my skills in software development, cyber security, and networking.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front-End Hardware Technician</h4>
+
+              <span>2015-2015</span>
+
+              <p class="timeline-text">
+                I worked as a front-end hardware technician at the town hall of the borough I used to live in, where I have gained experience in diagnosing and fixing hardware issues.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Salesforce Industry Project</h4>
+
+              <span>2023-2023</span>
+
+              <p class="timeline-text">
+                I worked on a team project with to present a presentation on AI in Education to Salesforce employees, where I gained experience in working in a team and presenting to a professional audience.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bank of America Industry Project</h4>
+
+              <span>2023-2023</span>
+
+              <p class="timeline-text">
+                I was given a project by Bank of America to deal with a fake investment situation where we were given a budget and had to invest in companies. 
+                I was the software developer and I made a Python script that would take in the data of the companies so we could see trends and what to invest in, while dealing with fake news headlines that would affect stock prices. 
+                My team also delivered a presentation on our findings and our choices.
+                In this project I gained experience in working in a team, presenting to a professional audience, and using python to analyse data.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Portfolio Website Building</h4>
+
+              <span>2023-Current</span>
+
+              <p class="timeline-text">
+                I built this website to showcase my skills and projects, where I gained experience in web development and design.
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="brush" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Web design</h5>
+                <data value="30">30%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="logo-python" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Python</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="document-text" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Spreadsheets</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="wifi-outline" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Networking/Packet Tracer</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="logo-tux" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Linux</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="logo-html5" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">HTML</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="logo-css3" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">CSS</h5>
+                <data value="40">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="logo-javascript" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">JavaScript</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="git-branch-outline" style="color: white; font-size: 1.7em;"></ion-icon>
+                <h5 class="h5">Git</h5>
+                <data value="45">45%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>C++</button>
+            </li>
+
+          </ul>
+
+            
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+
+            </ul>
+
+          </div>
+          
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="yfinance.html">
+                <figure class="project-img">
+                  <div class = "project-item-icon-box">
+                    <ion-icon name = "eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.svg" alt="YFinance Stock Tool" width="300">
+                </figure>
+              <div class = "project-container">
+                <h3 class = "project-title">YFinance Stock Tool</h3>
+                <h4 class = "project-subtitle">Click the icon to try a demo!</h4>
+                <p class = "project-description">This is a python script that uses the yfinance library to get stock data and display it in a user-friendly way.</p>
+                <p class = "project-language">Python</p>
+              </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="foldertidy.html">
+                <figure class="project-img">
+                  <div class = "project-item-icon-box">
+                    <ion-icon name = "eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.svg" alt="FolderTidy" width="300">
+                </figure>
+
+              <div class = "project-container">
+                <h3 class = "project-title">FolderTidy</h3>
+                <h4 class = "project-subtitle">Click the icon to watch a demo!</h4>
+                <p class = "project-description">This is a python script that organises folders in a directory using a naming scheme.</p>
+                <p class = "project-language">Python</p>
+              </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="c++">
+              <a href="#">
+                <figure class="project-img">
+                  <div class = "project-item-icon-box">
+                    <ion-icon name = "eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/icon-wip.svg" alt="Personal Expense Tracker" width="300">
+                </figure>
+              <div class = "project-container">
+                <h3 class = "project-title">Personal Expense Tracker</h3>
+                <h4 class = "project-subtitle">Work In Progress!</h4>
+                <p class = "project-description">This is a C++ program that tracks personal expenses and displays them to the user in order to help them budget.</p>
+                <p class = "project-language">C++</p>
+              </div>
+              </a>
+
+          </ul>
+        </section>
+
+      </article>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
